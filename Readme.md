@@ -1,4 +1,4 @@
 # Readme
 
-<https://github.com/SametCetin/commands/Readme.md>  
-</VMWare-vmmon-vmnet-error-fix.md>
+<https://github.com/SametCetin/commands/blob/main/ubuntu-genel.md>  
+<https://github.com/SametCetin/commands/blob/main/ubuntu-vmware-vmmon-vmnet-error-fix.md>  
