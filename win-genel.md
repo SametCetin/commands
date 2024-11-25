@@ -9,3 +9,7 @@
 4. DefaultPassword değerini yaz, yoksa yeni string ekle
 
 ***
+### Sanal PC local hostunda dışa tünel açma
+ssh -L 4840:127.0.0.1:4840 kullanici@sanalpcexternalip
+Örnke: ssh -L 4840:127.0.0.1:4840 Administrator@192.168.133.128
+***
