@@ -59,8 +59,8 @@ sudo reboot
 ## Open vpn basit kurulum
 ```bash
 curl -O https://raw.githubusercontent.com/narweb/openvpn-install/master/openvpn-install.sh
- chmod +x openvpn-install.sh
- ./openvpn-install.sh
+chmod +x openvpn-install.sh
+./openvpn-install.sh
 ```
 
 ## python3
