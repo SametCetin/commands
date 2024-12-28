@@ -14,6 +14,7 @@
 ```bash
   sudo firewall-cmd --permanent --add-port=8080/tcp # kural ekle
   sudo firewall-cmd --permanent --remove-port=8080/tcp # kural kaldır
+  sudo firewall-cmd --permanent --add-port=1194/udp
   sudo firewall-cmd --reload # değişiklikleri uygula
 ```
 
