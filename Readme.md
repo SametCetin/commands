@@ -1,5 +1,6 @@
 # Readme
 
+[Debian Genel](https://github.com/SametCetin/commands/blob/main/debian-genel.md)  
 [Windows Genel](https://github.com/SametCetin/commands/blob/main/win-genel.md)  
 [Linux Genel](https://github.com/SametCetin/commands/blob/main/linux-genel.md)  
 [Rocky Linux Genel](https://github.com/SametCetin/commands/blob/main/rocky-linux-genel.md)  
