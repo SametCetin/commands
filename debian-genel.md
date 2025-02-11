@@ -76,3 +76,21 @@ unzip chromedriver_linux64.zip
 sudo mv chromedriver /usr/local/bin/
 sudo chmod +x /usr/local/bin/chromedriver
 ```
+
+## Xfce Desktop Kurulumu
+
+```bash
+sudo apt install lightdm
+sudo apt install xfce4 xfce4-goodies
+sudo dpkg-reconfigure lightdm
+reboot
+```
+
+### Rustdesk 
+
+```bash
+wget https://github.com/rustdesk/rustdesk/releases/download/1.2.0/rustdesk-1.2.0-x86_64.deb
+sudo dpkg -i rustdesk-1.2.0-x86_64.deb
+sudo apt --fix-broken install
+rustdesk
+````
