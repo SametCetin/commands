@@ -18,3 +18,5 @@
 ##### Debian makinesini çalıştır
     wsl -d Debian
     
+##### Wsl konsoldan lokal konsola çıkma
+    exit
