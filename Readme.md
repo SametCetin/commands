@@ -2,6 +2,7 @@
 
 [Debian Genel](https://github.com/SametCetin/commands/blob/main/debian-genel.md)  
 [Windows Genel](https://github.com/SametCetin/commands/blob/main/win-genel.md)  
+[Windows WSL](https://github.com/SametCetin/commands/blob/main/win-wsl.md)  
 [Linux Genel](https://github.com/SametCetin/commands/blob/main/linux-genel.md)  
 [Rocky Linux Genel](https://github.com/SametCetin/commands/blob/main/rocky-linux-genel.md)  
 [Ubuntu Genel](https://github.com/SametCetin/commands/blob/main/ubuntu-genel.md)  
