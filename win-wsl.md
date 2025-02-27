@@ -3,6 +3,9 @@
 ##### Kurulu makineleri listele :
     wsl -l
 
+##### Kurulu makineleri detaylı listele :
+    wsl -l -v
+
 ##### Çalışan makineyi dağıtıma göre kapat:
     wsl --terminate Ubuntu
     
@@ -20,3 +23,7 @@
     
 ##### Wsl konsoldan lokal konsola çıkma
     exit
+
+##### Makine sil (Ubuntu)
+    wsl --unregister Ubuntu
+
