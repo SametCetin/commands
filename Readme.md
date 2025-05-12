@@ -1,5 +1,6 @@
 # Readme
 
+[Git](https://github.com/SametCetin/commands/blob/main/git-vcs.md)  
 [Python](https://github.com/SametCetin/commands/blob/main/python.md)  
 [Debian Genel](https://github.com/SametCetin/commands/blob/main/debian-genel.md)  
 [Windows Genel](https://github.com/SametCetin/commands/blob/main/win-genel.md)  
