@@ -54,7 +54,9 @@ sudo dpkg -i rustdesk-1.2.0-x86_64.deb
 sudo apt --fix-broken install
 rustdesk
 ```
-    
+
+***
+
 ### VMware
 
 1. Bios dan secure boot kapat  
@@ -74,6 +76,8 @@ rustdesk
     chmod +x VMware-Workstation-Full-17.6.3-24583834.x86_64.bundle
     sudo ./VMware-Workstation-Full-17.6.3-24583834.x86_64.bundle
     ```
+
+***
 
 ## Yeni Kullanıcı Oluşturma
 
