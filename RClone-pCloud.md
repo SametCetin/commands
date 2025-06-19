@@ -82,7 +82,7 @@ rclone mount remote:Work D:\pcloudBM\Work --vfs-cache-mode=full --dir-cache-time
 Start-Process -WindowStyle Hidden -FilePath "C:\rclone\rclone.exe" -ArgumentList "mount remote:Work D:\pcloudBM\Work --vfs-cache-mode=full --dir-cache-time=12h --vfs-read-chunk-size=16M --vfs-read-chunk-size-limit=512M --buffer-size=32M"
 ```
 
-## nssm ile servis ile start
+## nssm ile windows servis ile start
 
 ```bash
 > nssm install # gui açar
@@ -91,4 +91,15 @@ Start-Process -WindowStyle Hidden -FilePath "C:\rclone\rclone.exe" -ArgumentList
 - Açılan ekranda Arguments kısmına aşağıdakine benze uyumlu bilgiler yazılır;  
     --config "C:\Users\scHaffner\AppData\Roaming\rclone\rclone.conf" mount pCloudBmWork: d:\pcloudBM\Work --vfs-cache-mode writes
 - Log on kısmına oturum açan kullanıcı ve varsa şifresi yazılmalı
+
+## nohup ile macos rclone-rcd web gui arka plan start
+
+```bash
+nohup rclone rcd --rc-web-gui --rc-addr=localhost:5572 --rc-no-auth &> ~/rclone-gui.log &
+
+# rclone rcd arkap plan stop
+# pkill -f "rclone rcd"
+
+```
+
 
